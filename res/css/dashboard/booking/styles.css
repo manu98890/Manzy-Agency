@@ -1,0 +1,102 @@
+
+
+.main-container{
+    position:absolute;
+    top: 18%;
+    left: 9%;
+    width: 80%;
+    height: 60%;
+    border: solid 1px rgba(109, 108, 108, 0.668);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left-image-containers{
+    position:absolute;
+    width: 40%;
+    height: 80%;
+    /*border: solid 1px black;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header-name{
+    position:absolute;
+    top: 5%;
+    left: 45%;
+    width: auto;
+    height: 29px;
+    /*border: solid 1px black;*/
+    font-size: 24px;
+}
+
+.description-section{
+    position:absolute;
+    top: 20%;
+    left: 45%;
+    width: 30%;
+    height: auto;
+    /*border: solid 1px black;*/
+}
+
+.days-image{
+    position:absolute;
+    top: 38%;
+    left: 45%;
+    width: 74px;
+    height: 74px;
+    /*border: solid 1px black;*/
+    background-image: url('../../../img/dashboard/trips/cal.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.days-selector{
+    position:absolute;
+    top: 43%;
+    left: 55%;
+    width: 100px;
+}
+
+.price-section{
+    position:absolute;
+    top: 59%;
+    left: 45%;
+    width: 74px;
+    height: 74px;
+    /*border: solid 1px black;*/
+    background-image: url('../../../img/dashboard/trips/price.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.price-tag-display{
+    position:absolute;
+    top: 65%;
+    left: 55%;
+}
+
+.room-size-container{
+    position:absolute;
+    top: 38%;
+    left: 70%;
+    width: 74px;
+    height: 74px;
+    /*border: solid 1px black;*/
+    background-image: url('../../../img/dashboard/trips/size.png');
+}
+
+.room-size-selector{
+    position:absolute;
+    top: 43%;
+    left: 79%;
+    width: 100px;
+}
+
+.submit-container-on-paypal{
+    position:absolute;
+    bottom: 0;
+    right: 5%;
+}

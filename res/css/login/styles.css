@@ -1,0 +1,166 @@
+html, body {
+    overflow: hidden;
+}
+
+body{
+    background: #EEE4FF;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    overflow-y: auto;
+}
+
+.main-section{
+    position: absolute;
+    top: 50px;
+    width: 1216px;
+    height: 582px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0); 
+}
+
+.left-image{
+    width: 592px;
+    height: 100%;
+    background-color: yellow;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url('../../img/sigiriya-login.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.right-section{
+    width: 624px;
+    height: 100%;
+    display: block;
+    /*border: 1px solid black;*/
+}
+
+.main-header{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(20, 20, 20);
+}
+
+.sub-header{
+    position: relative;
+    top: -25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(88, 87, 87, 0.781);
+}
+
+.username-section{
+    margin: 0px 0px 0px 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: rgba(79, 79, 79, 0.795);
+}
+
+.inputs{
+    margin: 0px 0px 0px 90px;
+}
+
+.input-field{
+    width: 400px;
+    height: 50px;
+    border:1px solid #d700fd;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.input-field:focus{
+    border: 1px solid #f207b3;
+    outline: none;
+}
+
+.input:focus{
+    outline: none;
+    border: none;
+}
+
+.hint{
+    margin: 0px 0px 0px 180px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #565556c1;
+}
+
+.hint-highlight{
+    text-decoration: none;
+    color: #f23df2c1;
+}
+
+.login-btn-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px 0px 0px 0px;
+}
+
+.login-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid #bd06ff;
+    background-color: #FD0FE1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+@media (max-width: 768px) {
+    .main-section{
+        top: 0px;
+        width: 500px;
+        height: 800px;
+        display: block;
+    }
+
+    .left-image{
+        width: 100%;
+        height: 300px;
+    }
+
+    .right-section{
+        width: 500px;
+        height: 300px;
+    }
+
+    .main-header{
+        font-size: 0.8rem;
+    }
+
+    .username-section{
+        position: relative;
+        top:-30px;
+    }
+
+    .input-field{
+        position: relative;
+        top: -40px;
+        width: 300px;
+        height: 40px;
+    }
+
+    .hint{
+        position: relative;
+        top: -30px;
+        margin: 0px 0px 0px 130px;
+    }
+
+    .login-btn-container{
+        position: relative;
+        margin: 10px 0px 0px 0px;
+    }
+}

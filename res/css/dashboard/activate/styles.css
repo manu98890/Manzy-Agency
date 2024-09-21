@@ -1,0 +1,44 @@
+
+
+.default-cards{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 447px;
+    height: 547px;
+    border: solid 1px rgba(133, 133, 133, 0.657);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.card2{
+    left: 50% !important;
+}
+
+.image-container{
+    width: 100%;
+    height: 60%;
+    /*border: solid 1px black;*/
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+    background-image: url('../../../img/dashboard/places/20.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.default-activation{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    background-color: #FF00E1;
+    color: white;
+    border: solid 1px black;
+    border-radius: 20px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}

@@ -1,0 +1,187 @@
+Script started at 2024-09-06 09:44:54
+Script started at 2024-09-06 09:56:42
+Script started at 2024-09-06 10:05:17
+API Response: Array
+(
+    [coord] => Array
+        (
+            [lon] => 80.217
+            [lat] => 6.0367
+        )
+
+    [weather] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 803
+                    [main] => Clouds
+                    [description] => broken clouds
+                    [icon] => 04d
+                )
+
+        )
+
+    [base] => stations
+    [main] => Array
+        (
+            [temp] => 303.67
+            [feels_like] => 310.67
+            [temp_min] => 303.67
+            [temp_max] => 303.67
+            [pressure] => 1008
+            [humidity] => 76
+            [sea_level] => 1008
+            [grnd_level] => 1006
+        )
+
+    [visibility] => 10000
+    [wind] => Array
+        (
+            [speed] => 1.79
+            [deg] => 136
+            [gust] => 5.81
+        )
+
+    [clouds] => Array
+        (
+            [all] => 73
+        )
+
+    [dt] => 1725616602
+    [sys] => Array
+        (
+            [type] => 2
+            [id] => 2094980
+            [country] => LK
+            [sunrise] => 1725582696
+            [sunset] => 1725626624
+        )
+
+    [timezone] => 19800
+    [id] => 1246294
+    [name] => Galle
+    [cod] => 200
+)
+
+Script started at 2024-09-06 10:13:00
+API Response: Array
+(
+    [coord] => Array
+        (
+            [lon] => 80.217
+            [lat] => 6.0367
+        )
+
+    [weather] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 803
+                    [main] => Clouds
+                    [description] => broken clouds
+                    [icon] => 04d
+                )
+
+        )
+
+    [base] => stations
+    [main] => Array
+        (
+            [temp] => 300.84
+            [feels_like] => 304.9
+            [temp_min] => 300.84
+            [temp_max] => 300.84
+            [pressure] => 1008
+            [humidity] => 83
+            [sea_level] => 1008
+            [grnd_level] => 1006
+        )
+
+    [visibility] => 10000
+    [wind] => Array
+        (
+            [speed] => 6.94
+            [deg] => 272
+            [gust] => 9.94
+        )
+
+    [clouds] => Array
+        (
+            [all] => 73
+        )
+
+    [dt] => 1725617580
+    [sys] => Array
+        (
+            [country] => LK
+            [sunrise] => 1725582696
+            [sunset] => 1725626624
+        )
+
+    [timezone] => 19800
+    [id] => 1246294
+    [name] => Galle
+    [cod] => 200
+)
+
+Script started at 2024-09-06 10:14:09
+API Response: Array
+(
+    [coord] => Array
+        (
+            [lon] => 80.217
+            [lat] => 6.0367
+        )
+
+    [weather] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 803
+                    [main] => Clouds
+                    [description] => broken clouds
+                    [icon] => 04d
+                )
+
+        )
+
+    [base] => stations
+    [main] => Array
+        (
+            [temp] => 300.84
+            [feels_like] => 304.9
+            [temp_min] => 300.84
+            [temp_max] => 300.84
+            [pressure] => 1008
+            [humidity] => 83
+            [sea_level] => 1008
+            [grnd_level] => 1006
+        )
+
+    [visibility] => 10000
+    [wind] => Array
+        (
+            [speed] => 6.94
+            [deg] => 272
+            [gust] => 9.94
+        )
+
+    [clouds] => Array
+        (
+            [all] => 73
+        )
+
+    [dt] => 1725617580
+    [sys] => Array
+        (
+            [country] => LK
+            [sunrise] => 1725582696
+            [sunset] => 1725626624
+        )
+
+    [timezone] => 19800
+    [id] => 1246294
+    [name] => Galle
+    [cod] => 200
+)
+

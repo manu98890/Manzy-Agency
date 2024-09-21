@@ -1,0 +1,996 @@
+html, body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /*border: 1px solid #000000;*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: white;
+}
+
+.logo{
+    margin-left: 100px;
+    width: 5%;
+    height:100%;
+    /*border: 1px solid #000000;*/
+}
+
+.logo-img{
+    margin: -54px 0px 0px -74px;
+    width: 300%;
+    height: 300%;
+}
+
+.logo-name{
+    margin-left:10px;
+    width: 15%;
+    height:100%;
+    /*border: 1px solid #000000;*/
+}
+
+.logo-name-text{
+    margin-top: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: #ce1ece;
+}
+
+.center-container{
+    margin-left:90px;
+    width: 35%;
+    height:100%;
+    /*border: 1px solid #000000;*/
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.center-text{
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a821f1;
+}
+
+.center-text:hover{
+    border: 1px solid #a821f100;
+    border-radius: 20px;
+    border-spacing: 10px;
+    background-color: #a821f1;
+    color: rgb(255, 255, 255);
+}
+
+.login-container{
+    margin-top: 5px;
+    margin-left:200px;
+    width: 6%;
+    height:80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.login-btn{
+    width: 50%;
+    height:50%;
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.login-container:hover{
+    background-color: #a821f1;
+}
+.main-slogan{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-top: 7%;
+}
+
+.center-search{
+    margin-left: 10%;
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 8%;
+    /*border: 1px solid #000000;*/
+    align-items: center;
+    justify-content:space-around
+}
+
+.one-search{
+    width: 10%;
+    height:10%;
+    /*border: 1px solid #e70000;*/
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(85, 84, 84, 0.832);
+}
+
+.svg-icon{
+    width: 44px;
+    height: 33px;
+}
+
+.searchbar{
+    position: relative;
+    top: 30px;
+    left: 25%;
+    width: 50%;
+    height: 50px;
+    border: 1px solid #626161ad;
+    align-items:center;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input{
+    width: 70%;
+    height: 40px;
+    border:transparent;
+    text-align: left;
+}
+
+.search-btn{
+    margin-left:30px;
+    border: transparent;
+    background-color: #a821f1;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.image-banner{
+    position: relative;
+    top: 100px;
+    left: 8%;
+    width: 82%;
+    height: 382px;
+    border: 1px solid rgb(196, 51, 237);
+    background-image: url('../../../img/banner1.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    border-radius: 20px;
+    display: flex;
+}
+
+.banner-text-container{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 15%;
+    /*border: 1px solid rgb(255, 255, 255);*/
+}
+
+.banner-sub-container{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 15%;
+    /*border: 1px solid rgb(255, 255, 255);*/
+}
+
+.trip-planner{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.sub-image-banner{
+    position: relative;
+    top:20%;
+    left: 55%;
+    width: 183px;
+    height: 244px;
+    background-image: url('../../../img/train.jpg');
+    border-radius: 20px;
+    border: 1px solid white;
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.sub-image-banner2{
+    position: relative;
+    top:20%;
+    left: 60%;
+    width: 183px;
+    height: 244px;
+    background-image: url('../../../img/mountains.jpg');
+    border-radius: 20px;
+    border: 1px solid white;
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.second-section-header{
+    position: relative;
+    top: 180px;
+    left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-header2{
+    color: #393838;
+    font-size: 2rem;
+}
+
+.seconder-header{
+    position: relative;
+    top: -10px;
+    color: #504f4fb7;
+    font-size: 1rem;
+}
+
+.small-banner1{
+    position: relative;
+    top: 10px;
+    width: 280px;
+    height:311px;
+    background-image: url('../../../img/nine-arch.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    border: 1px solid #ce1ece;
+    border-radius: 20px;
+    align-items:end;
+    justify-content: center;
+    display: flex;
+}
+
+.small-banner2{
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    width: 280px;
+    height:311px;
+    background-image: url('../../../img/sigiriya.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    border: 1px solid #ce1ece;
+    border-radius: 20px;
+    align-items:end;
+    justify-content: center;
+    display: flex;
+}
+
+.small-banner3{
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    width: 280px;
+    height:311px;
+    background-image: url('../../../img/nilaweli.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    border: 1px solid #ce1ece;
+    border-radius: 20px;
+    align-items:end;
+    justify-content: center;
+    display: flex;
+}
+
+.small-banner4{
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    width: 280px;
+    height:311px;
+    background-image: url('../../../img/Trinco.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    border: 1px solid #ce1ece;
+    border-radius: 20px;
+    align-items:end;
+    justify-content: center;
+    display: flex;
+}
+
+.image-name{
+    position: relative;
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 2rem;
+}
+
+.second-section-container{
+    display: flex;
+}
+
+.third-section{
+    display: block;
+}
+
+.third-section-header{
+    position: relative;
+    top: 250px;
+    left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.third-section-container{
+    position: relative;
+    display: flex;
+    top: 300px;
+    left: 10%;
+}
+
+.small-banner-with-logo{
+    position: relative;
+    width: 280px;
+    height:311px;
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    border: 1px solid #ce1ece;
+    border-radius: 20px;
+    align-items:end;
+    justify-content: center;
+    display: flex;
+}
+
+.bg1 {
+    background-image: url('../../../img/hikkaduwa.jpg');
+}
+
+.bg2 {
+    background-image: url('../../../img/sinharaja.jpg');
+    margin-left: 20px;
+}
+
+.bg3 {
+    background-image: url('../../../img/anuradhapuraya.jpg');
+    margin-left: 20px;
+}
+
+.bg4 {
+    background-image: url('../../../img/Galle.jpg');
+    margin-left: 20px;
+}
+
+.text-border{
+    text-shadow: 0 0 3px #ff00ee;
+}
+
+.fouth-banner{
+    position: relative;
+    top: 350px;
+    left: 9%;
+    width: 1218px;
+    height: 382px;
+    background-color: #EEE4FF;
+    border: 1px solid #D03CD2;
+    border-radius: 20px;
+    display: flex;
+}
+
+.lotus-tower{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    width: 240px;
+    height:273px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../../../img/lotu.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.fouth-headers{
+    display:block;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.main-fouth{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color: #504f4fc4;
+}
+
+.main-fouth-sub{
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: #3d3d3dc4;
+}
+
+.lines{
+    position: absolute;
+    top: 0px;
+    left: 78.9%;
+    width: 260px;
+    height: 383px;
+    background-image: url('../../../img/lines.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.sml-logo{
+    position: absolute;
+    top: 68%;
+    left: 87%;
+    width: 157px;
+    height: 149px;
+    background-image: url('../../../img/sml-logo.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.fifth-banner{
+    position: relative;
+    top: 450px;
+    left: 8.5%;
+    width: 1218px;
+    height: 400px;
+    display: flex;
+    /*border: 1px solid #000000;*/
+}
+
+.fifth-main-header{
+    margin: 10px 0px 0px 10px;
+    width: 30%;
+    height: 20%;
+    /*border: 1px solid #000000;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ce1ece;
+}
+
+.fifth-sub-header{
+    position: absolute;
+    top: 100px;
+    margin: 10px 0px 0px 90px;
+    width: 18%;
+    height: 20%;
+    /*border: 1px solid #000000;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #454545c1;
+}
+
+.small-fifth-cards{
+    position: relative;
+    margin: 50px 10px 0px 60px;
+    width: 312px;
+    height: 331px;
+    background-color: white;
+    border: 1px solid #D739CC;
+    border-radius: 20px;
+    align-items: end;
+    display: flex;
+}
+
+.background1{
+    background-image: url('../../../img/queens.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.background2{
+    background-image: url('../../../img/galadari.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.logo-tag-fifth{
+    position: relative;
+    align-items: bottom;
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid #D739CC;*/
+    background-image: url('../../../img/logo-tag.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    /*box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;*/
+}
+
+.fifth-card-name{
+    position: relative;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0 0 3px #ff00ee;
+}
+
+.sixth-banner-section{
+    position: relative;
+    top: 500px;
+    left: 8.5%;
+    width: 1216px;
+    height: 670px;
+    background-color: #EEE4FF;
+    border: 1px solid #9C66FA;
+    border-radius:20px;
+    display: flex;
+}
+
+.text-area-section{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 280px;
+    height: 200px;
+    /*border: 1px solid #9C66FA;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    color:#3d3d3dc7;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card-of-sixth-section{
+    position: relative;
+    left: 200px;
+    width: 657.67px;
+    height: 461.36px;
+    background-color: white;
+    border-radius: 80px;
+    rotate: -45.64deg;
+    border: 1px solid #000000;
+    background-image: url('../../../img/sixth-banner.jpg');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.half-top-circle{
+    position: absolute;
+    top:-74px;
+    left: 400px;
+    width: 493.86px;
+    height:494.01px;
+    background-image: url('../../../img/half-circle.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.half-top-circle2{
+    position: absolute;
+    top: 220px;
+    left: 760px;
+    width: 493.86px;
+    height:494.01px;
+    background-image: url('../../../img/half-part2.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.logo-on-sixth{
+    position: absolute;
+    bottom:10px;
+    left: 80px;
+    width: 254px;
+    height: 284px;
+    background-image: url('../../../img/logo-six.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+
+footer {
+    position: relative;
+    top: 550px;
+    width: 1600px;
+    height: 332px;
+    /*background: #333;*/
+    background:white;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+.footer-line-section{
+    width: 1600px;
+    height: 51px;
+    /*border: 1px solid white;*/
+    background-image: url('../../../img/footer-lines.png');
+    background-size: cover; /* Optional: ensure the image covers the element */
+    background-position: center; /* Optional: position the image */
+    background-repeat: no-repeat; /* Optional: avoid repeating the image */
+}
+
+.footer-logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width:374px;
+    height:358px;
+    /*border: 1px solid white;*/
+    background-image: url('../../../img/footer-logo.png');
+}
+
+.brand-name{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width:280px;
+    height: 48px;
+    /*border: 1px solid white;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #761BD8;
+}
+
+.profile-logo{
+    margin-left: 10px;
+    width: 71px;
+    height: 60px;
+    /*border: 1px solid black;*/
+}
+
+.prifile-logo-section-fill{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../img/dashboard/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* Media query for smaller screens (mobile devices) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        height: auto; /* Auto height for stacking elements */
+    }
+
+    .logo{
+        margin: 50px 0px 0px 80px;
+        width: 50%;
+        height:20%;
+        /*border: 1px solid #000000;*/
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .logo-img{
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo-name{
+        margin-left:30px;
+        width: 80%;
+        height:100%;
+        /*border: 1px solid #000000;*/
+    }
+
+    .center-container{
+        margin-left:45px;
+        width: 70%;
+        height:100%;
+        /*border: 1px solid #000000;*/
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+
+    .login-container{
+        margin-top: 25px;
+        margin-left:150px;
+        width: 20%;
+        height:40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: #000000;
+        border-radius: 20px;
+    }
+
+    .main-slogan{
+        margin-top: 100%;
+    }
+
+    .center-search{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1px;
+        width: 100%;
+    }
+
+    .one-search{
+        width: 20%;
+        height:10%;
+        /*border: 1px solid #e70000;*/
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgba(85, 84, 84, 0.832);
+    }
+
+    .svg-icon{
+        width: 22px;
+        height: 15px;
+    }
+
+    .searchbar{
+        left: 0;
+        width: 100%;
+    }
+    
+    .banner-text-container{
+        top:8%;
+        left: 0%;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .banner-sub-container{
+        top: 15%;
+        left: 0%;
+        width: 100%;
+        font-size: 0.7rem;
+    }
+
+    .sub-image-banner{
+        top:45%;
+        left: 20%;
+        width: 90px;
+        height: 122px;
+    }
+
+    .sub-image-banner2{
+        top:45%;
+        left: 30%;
+        width: 90px;
+        height: 122px;
+    }
+
+    .second-section-header{
+        left: 15px;
+    }
+
+    .main-header2{
+        left: 5px;
+        font-size: 1.5rem;
+    }
+
+    .seconder-header{
+        font-size: 0.7rem;
+        left: 20px;
+    }
+
+    .second-section-container{
+        display: block;
+    }
+
+    .small-banner1{
+        margin-left: 20px;
+    }
+
+    .small-banner2, .small-banner3, .small-banner4{
+        margin-top: 10px;
+    }
+
+    .third-section-container{
+        display: block;
+    }
+
+    .small-banner-with-logo{
+        margin:10px 0px 0px 20px;
+    }
+
+    .fouth-banner{
+        width: 400px;
+        height: 150px;
+        left: 5px;
+    }
+
+    .lotus-tower{
+        width: 100px;
+        height:110px;
+    }
+
+    .fouth-headers{
+        left: 35%;
+    }
+
+    .main-fouth{
+        font-size:0.7rem;
+    }
+
+    .main-fouth-sub{
+        font-size:0.4rem;
+        top: 30px;
+        left: 10%;
+    }
+
+    .lines{
+        width: 100px;
+        height: 151px;
+        left: 75%;
+    }
+
+    .sml-logo{
+        width: 50px;
+        height: 77px;
+        top: 55%;
+    }
+
+    .fifth-banner{
+        top: 400px;
+        left: 5%;
+        width: 90%;
+        height: 160px;
+    }
+
+    .fifth-main-header{
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        font-size: 0.5rem;
+    }
+
+    .fifth-sub-header{
+        top:30px;
+        margin: 0px 0px 0px 20px;
+        width: 80px;
+        font-size: 0.3rem;
+    }
+
+    .small-fifth-cards{
+        left: 100px;
+        margin: 10px 5px 0px 30px; 
+        border-radius: 10px;
+        width: 80px;
+        height: 130px;
+    }
+
+    .logo-tag-fifth{
+        width: 20px;
+        height: 20px;
+    }
+
+    .fifth-card-name{
+        margin-left: 4px;
+        font-size: 0.4rem;
+    }
+
+    .sixth-banner-section{
+        left: 5px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .text-area-section{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 130px;
+        height: 50px;
+        font-size: 1rem;
+    }
+
+    .main-card-of-sixth-section{
+        width: 300px;
+        height: 150px;
+        left: 100px;
+    }
+
+    .half-top-circle{
+        top: 5px;
+        left: 140px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .half-top-circle2{
+        top: 78px;
+        left: 280px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-on-sixth{
+        top: 130px;
+        left: 10px;
+        width: 100px;
+        height: 50px;
+    }
+
+    footer{
+        width: 100%;
+        height: 200px;
+        /*background: #000000;*/
+    }
+
+    .footer-line-section{
+        width: 450px;
+        height:10px;
+    }
+
+    .footer-logo{
+        top: 70px;
+        width: 100px;
+        height: 100px;
+        background-size: cover; /* Optional: ensure the image covers the element */
+        background-position: center; /* Optional: position the image */
+        background-repeat: no-repeat; /* Optional: avoid repeating the image */
+    }
+
+    .brand-name{
+        font-size: 0.8rem;
+        width: 120px;
+    }
+}
